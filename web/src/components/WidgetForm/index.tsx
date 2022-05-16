@@ -1,7 +1,7 @@
 import { CloseButton } from "../CloseButton";
-import bugImageUrl from '../../assets/bug.svg';
-import ideiaImageUrl from '../../assets/Idea.svg';
-import otherImageUrl from '../../assets/Thought.svg';
+import bugImageUrl from "../../assets/bug.svg";
+import ideaImageUrl from "../../assets/idea.svg";
+import thoughtImageUrl from "../../assets/thought.svg";
 import { useState } from "react";
 import { FeedbackTypesStep } from "./Steps/FeedbackTypesStep";
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
@@ -18,14 +18,14 @@ export const feedbackTypes = {
     IDEIA: {
         title: 'Ideia',
         image: {
-            source: ideiaImageUrl,
+            source: ideaImageUrl,
             alt: 'Imagem de uma lampada acesa, representando uma ideia'
         },
     },
     OTHER: {
         title: 'Outro',
         image: {
-            source: otherImageUrl,
+            source: thoughtImageUrl,
             alt: 'Imagem de um balão de pensamento, representado uma sugestão',
         },
     }
